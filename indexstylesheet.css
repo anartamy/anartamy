@@ -38,7 +38,7 @@ hr{
 	margin-bottom: 20px;
 }
 section2{
-	background-image: url(https://www.dropbox.com/scl/fi/0syo7swjngbx99rzz8t80/yyz.jpg?rlkey=smk0ss1fjpj2qur8qeazv6q9r&st=1fzpeskt&raw=1);
+	background-image: src="images/fe864fff3269dfa45f21ac271c4fca2c.jpg";
 	background-size: cover;
 	height: 500px;
 	opacity: 0.9;
