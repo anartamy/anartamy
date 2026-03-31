@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Special Elite');
-body{
-	background-color: black;
-	color: lightgray;
-	min-height: 100vh;
-	min-height: 100dvh;
-	display: flex;
-	flex-direction: column;
-	font-family: 'special elite', serif;
-}
 section{
 	display: flex;
 	flex-direction: row;
