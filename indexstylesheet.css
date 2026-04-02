@@ -14,12 +14,14 @@ section{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	background-color: black;
 	width: 100vw;
 	z-index: 1000;
 	h1{
 	font-size: 20px;
 	font-weight: bold;
 	color: lightgray;
+	margin-top: 15px;
 	margin-left: 25px;
 	width: 675px;
 	}
