@@ -10,6 +10,7 @@ body{
 	font-family: 'special elite', serif;
 }
 section{
+	margin-top: 0;
 	position: fixed;
 	display: flex;
 	flex-direction: row;
