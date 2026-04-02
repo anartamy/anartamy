@@ -8,6 +8,9 @@ body{
 	display: flex;
 	flex-direction: column;
 	font-family: 'special elite', serif;
+	img {
+		loading: "lazy";
+	}
 }
 section{
 	display: flex;
