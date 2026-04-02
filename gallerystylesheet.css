@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Special Elite');
-
 body{
 	background-color: black;
 	color: lightgray;
-	min-height: 100vh;
-	min-height: 100dvh;
+	margin: 0;
+	max-width: 100vw;
+	max-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	font-family: 'special elite', serif;
@@ -13,13 +13,17 @@ body{
 	}
 }
 section{
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	width: 100vw;
+	z-index: 1000;
 	h1{
 	font-size: 20px;
 	font-weight: bold;
 	color: lightgray;
+	margin-top: 15px;
 	margin-left: 25px;
 	width: 675px;
 	}
@@ -27,7 +31,7 @@ section{
 	text-decoration: none;
 	font-size: 20px;
 	color: lightgray;
-	padding-top: 11px;
+	margin-top: 15px;
 	margin-right: 25px;
 	}	
 }
@@ -35,7 +39,7 @@ h2{
 	font-size: 25px;
 	font-weight: bold;
 	margin-left: 30px;
-	margin-top: 10px;
+	margin-top: 70px;
 	margin-bottom: 20px;
 }
 hr{
