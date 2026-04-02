@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="contactstylesheet.css">
+		<title> CONTACT </title>
+	</head>
+	<style>
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		img {
+			max-width: 100%;
+			max-height: 100%;
+		}
+		.text{
+			padding-left: 100px;
+		}
+	</style>
+	<body>
+		<section>
+			<h1><a href="index.html" class="button"> ANARTAMY </a></h1>
+			<div class="button-container" style="width: 500px; padding-top: 15px">
+			<a href="index.html" class="button">Home</a>
+			<a href="gallery.html" class="button">Gallery</a>
+			<a href="projects.html" class="button">Projects</a>
+			<a href="about.html" class="button">About</a>
+			<a href="contact.html" class="button">Contact</a>
+			</div>
+		</section>
+		<section2>
+			<div class="contact-form-container">
+				<h2> CONTACT ANARTAMY </h2>
+				<form id="contactForm">
+					<div class="form-group">
+						<label for="name"> NAME <span style="color: red;">*</span></label>
+						<input type="text" id="name" name="name" placeholder="Name" required>
+						<span class="error-message" id="nameError"> </span>
+					</div>
+					<div id="form-group">
+						<label for="email"> EMAIL <span style="color: red;">*</span></label>
+						<input type="email" id="email" name="email" placeholder="Email" required>
+						<span class="error-message" id="nameError"> </span>
+					</div>
+					<div class="form-group">
+						<label for="phone"> PHONE </label>
+						<input type="tel" id="phone" name="phone" placeholder="Phone Number" optional>
+						<span class="error-message" id="nameError"> </span>
+					</div>
+					<div class="form-group">
+						<label for="message"> MESSAGE <span style="color: red;">*</span></label>
+						<textarea id="message" name="message" placeholder="Message" rows="5" required> </textarea>
+						<span class="error-message" id="nameError"> </span>
+					</div>
+					<button type="submit" class="submit-button"> SEND MESSAGE </button>
+				</form>
+			</div>
+			<script>
+				document.getElementById('contactForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    // Clear previous errors
+    const errorElements = document.querySelectorAll('.error-message');
+    errorElements.forEach(el => el.style.display = 'none');
+    // Get form values
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const message = document.getElementById('message').value.trim();
+    // Validation flags
+    let isValid = true;
+    // Name validation
+    if (name === '') {
+        document.getElementById('nameError').textContent = 'Name is required';
+        document.getElementById('nameError').style.display = 'block';
+        isValid = false;
+    }
+    // Email validation
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (email === '' || !emailPattern.test(email)) {
+        document.getElementById('emailError').textContent = 'Valid email is required';
+        document.getElementById('emailError').style.display = 'block';
+        isValid = false;
+    }
+    // Phone validation
+    const phonePattern = /^[0-9]{10}$/;
+    if (phone === '' || !phonePattern.test(phone)) {
+        document.getElementById('phoneError').textContent = 'Valid phone number is required';
+        document.getElementById('phoneError').style.display = 'block';
+        isValid = false;
+    }
+    // Message validation
+    if (message === '') {
+        document.getElementById('messageError').textContent = 'Message is required';
+        document.getElementById('messageError').style.display = 'block';
+        isValid = false;
+    }
+    if (isValid) {
+        alert('Form submitted successfully!');
+    }
+});
+	</script>
+	</section2>
+	<h4> SOCIALS </h4>
+		<hr>
+		<div class="button-container2">
+		<a href="https://www.instagram.com/anartamy/" class="button">
+			<img src="images/Instagram_Glyph_White.png" style="width: 40px; height: 40px; margin-bottom: 30px"> </a>
+		<a href="https://www.facebook.com/anartamyng#" class="button">
+            <img src="images/Facebook_Logo_Secondary.png" style="width: 40px; height: 40px; margin-bottom: 30px"> </a>
+		<a href="https://www.youtube.com/@anartamy3950" class="button">
+			<img src="images/yt_icon_white_digital.png" style="width: 50px; height: 50px; margin-bottom: 30px;"> </a>
+		</div>
+		<footer class="footer"> 
+			<p> Copyright © 2026 Anartamy - All Rights Reserved. </p> 
+		</footer>
+	</body>
+</html>
