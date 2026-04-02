@@ -73,7 +73,7 @@ section4 {
 	h4 {
 	font-size: 18px;
 	font-weight: bold;
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-left: 30px;
 	margin-bottom: 20px;
 	text-align: justify;
@@ -100,7 +100,7 @@ section5 {
 	text-align: justify;
 	h4 {
 		font-size: 18px;
-		margin-top: 50px; 
+		margin-top: 70px; 
 		font-weight: bold;
 		font-style: italic;
 	}
@@ -129,7 +129,7 @@ section6 {
 		line-height: 25px;
 		font-size: 20px;
 		font-weight: bold;
-		margin-top: 20px;
+		margin-top: 10px;
 		margin-bottom: 20px;
 		font-style: italic;
 	}
@@ -160,7 +160,7 @@ section7 {
 		line-height: 25px;
 		font-size: 18px;
 		font-weight: bold;
-		margin-top: 50px;
+		margin-top: 70px;
 		font-style: italic;
 	}
 	p {
