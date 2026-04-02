@@ -10,7 +10,7 @@ body{
 	font-family: 'special elite', serif;
 }
 section{
-	position: fixed; top:0;
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -21,6 +21,7 @@ section{
 	font-size: 20px;
 	font-weight: bold;
 	color: lightgray;
+	margin-top: 15px;
 	margin-left: 25px;
 	width: 675px;
 	}
@@ -28,6 +29,7 @@ section{
 	text-decoration: none;
 	font-size: 20px;
 	color: lightgray;
+	margin-top: 15px;
 	margin-right: 25px;
 	}	
 }
