@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Special Elite');
 body{
-    @media only screen and (max-width: 300px) 
     background-image: url("pastwork/Fire Bird.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
