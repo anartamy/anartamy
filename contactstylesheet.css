@@ -39,7 +39,7 @@ section{
     }   
 }
 .contact-form-container {
-    margin: auto;
+    margin: 0;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(20px);
