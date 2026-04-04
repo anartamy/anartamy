@@ -94,7 +94,7 @@ section5 {
 }
 .text-block {
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 300px;
 	margin-left: 50px;
 	margin-bottom: 20px;
 	text-align: justify;
@@ -103,6 +103,7 @@ section5 {
 		margin-top: 70px; 
 		font-weight: bold;
 		font-style: italic;
+		text-align: justify;
 	}
 	p {
 		line-height: 25px;
@@ -133,14 +134,17 @@ section6 {
 		font-weight: bold;
 		margin-top: 30px;
 		margin-bottom: 20px;
+		text-align: justify;
 		font-style: italic;
 	}
 	p {
 		margin-left: 60px;
 		line-height: 25px;
+		text-align: justify;
 	}
 	p2{
 		line-height: 25px;
+		text-align: justify;
 	}
 }
 section7 {
@@ -164,10 +168,12 @@ section7 {
 		font-size: 18px;
 		font-weight: bold;
 		margin-top: 70px;
+		text-align: justify;
 		font-style: italic;
 	}
 	p {
 		line-height: 25px;
+		text-align: justify;
 	}
 }
 .button-container2{
