@@ -63,7 +63,7 @@ section4 {
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	width: 100%;
+	object-fit: contain;
 	float: left;
 }
 .text-block {
@@ -71,7 +71,7 @@ section4 {
 	font-weight: 300px;
 	margin-left: 30px;
 	margin-bottom: 20px;
-	padding-right: 50px;
+	margin-right: 50px;
 	text-align: justify;
 	h4 {
 	font-size: 18px;
