@@ -64,10 +64,10 @@ section4 {
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	float: left;
+	justify-content: flex-start;
 }
 .text-block {
-	float: right;
+	justify-content: flex-end;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-bottom: 20px;
@@ -91,10 +91,10 @@ section5 {
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	float: right;
+	justify-content: flex-end;
 }
 .text-block {
-	float: left;
+	justify-content: flex-start;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 50px;
@@ -120,10 +120,10 @@ section6 {
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	float: left;
+	justify-content: flex-start;
 }
 .text-block {
-	float: right;
+	justify-content: flex-end;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 70px;
@@ -157,10 +157,10 @@ section7 {
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	float: right;
+	justify-content: flex-end;
 }
 .text-block {
-	float: left;
+	justify-content: flex-start;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 50px;
