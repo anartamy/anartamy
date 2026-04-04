@@ -67,6 +67,7 @@ section4 {
 	float: left;
 }
 .text-block {
+	float: right;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-bottom: 20px;
@@ -93,6 +94,7 @@ section5 {
 	float: right;
 }
 .text-block {
+	float: left;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 50px;
@@ -121,6 +123,7 @@ section6 {
 	float: left;
 }
 .text-block {
+	float: right;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 70px;
@@ -157,6 +160,7 @@ section7 {
 	float: right;
 }
 .text-block {
+	float: left;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 50px;
