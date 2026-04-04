@@ -67,7 +67,7 @@ section4 {
 	float: left;
 }
 .text-block {
-	display: in-line block;
+	width: 50%;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 30px;
