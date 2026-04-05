@@ -76,6 +76,7 @@ img {vertical-align: middle}
   opacity: 0.5; /* Fade out side slides */
   transform: scale(0.8); /* Shrink side slides */
   transition: all 0.5s ease;
+  animation: spin;
 }
 .slide.active {
   opacity: 1;
@@ -145,6 +146,10 @@ img {vertical-align: middle}
   bottom: -50px;
   width: 100%;
   text-align: justify-content;
+}
+@keyframes spin{
+	from {translate:0;}
+	to {translate: -100%}
 }
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
