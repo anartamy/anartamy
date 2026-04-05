@@ -59,15 +59,14 @@ h3 {
 }}
 section4 {
 	display: flex;
+	align-items: center;
 .button-container{
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	justify-content: flex-start;
 }
 .text-block {
-	justify-content: flex-end;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-bottom: 20px;
@@ -86,15 +85,14 @@ section4 {
 }
 section5 {
 	display: flex;
+	align-items: center;
 .button-container {
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	justify-content: flex-end;
 }
 .text-block {
-	justify-content: flex-start;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 50px;
@@ -115,15 +113,14 @@ section5 {
 }
 section6 { 
 	display: flex;
+	align-items: center;
 .button-container {
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	justify-content: flex-start;
 }
 .text-block {
-	justify-content: flex-end;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 70px;
@@ -152,15 +149,14 @@ section6 {
 }
 section7 {
 	display: flex;
+	align-items: center;
 .button-container {
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	justify-content: flex-end;
 }
 .text-block {
-	justify-content: flex-start;
 	font-size: 18px;
 	font-weight: 300px;
 	margin-left: 50px;
