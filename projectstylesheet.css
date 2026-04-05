@@ -59,12 +59,12 @@ h3 {
 }}
 section4 {
 	display: flex;
-	align-items: center;
 .button-container{
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
+	margin-left: auto;
 }
 .text-block {
 	font-size: 18px;
@@ -85,12 +85,12 @@ section4 {
 }
 section5 {
 	display: flex;
-	align-items: center;
 .button-container {
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
+	margin-right: auto;
 }
 .text-block {
 	font-size: 18px;
@@ -113,12 +113,12 @@ section5 {
 }
 section6 { 
 	display: flex;
-	align-items: center;
 .button-container {
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
+	margin-left: auto;
 }
 .text-block {
 	font-size: 18px;
@@ -149,12 +149,12 @@ section6 {
 }
 section7 {
 	display: flex;
-	align-items: center;
 .button-container {
 	padding-left: 50px;
 	padding-top: 20px;
 	padding-right: 50px;
 	padding-bottom: 20px;
+	margin-right: auto;
 }
 .text-block {
 	font-size: 18px;
