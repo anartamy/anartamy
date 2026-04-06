@@ -29,14 +29,40 @@
 	</style>
 		<body>
 			<section>
-				<h1> ANARTAMY </h1>
-				<div class="button-container2">
-				<a href="index.html" class="button">Home</a>
-				<a href="gallery.html" class="button">Gallery</a>
-				<a href="projects.html" class="button">Projects</a>
-				<a href="about.html" class="button">About</a>
-				<a href="contact.html" class="button">Contact</a>
-			</div>
+				<nav>
+					<div class="logo">
+						<img src="images/yyz.jpg" alt="logo">
+						<h1> ANARTAMY </h1>
+					</div>
+				<div class="hamburger">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<ul class="nav-links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				</nav>
+				<script>
+					const hamburger = document.querySelector('.hamburger');
+					const navLinks = document.querySelector('.nav-links');
+					let menuOpen = false;
+
+					hamburger.addEventListener('click', () => {
+						if (menuOpen == false) {
+							navLinks.style.display = "block";
+							menuOpen = true;
+						}
+						else if (menuOpen == true) {
+							navLinks.style.display = "none";
+							menuOpen = false;
+						}
+					});
+				</script>
 			</section>
 		<section2>
 			<h2> AMY NG </h2>
