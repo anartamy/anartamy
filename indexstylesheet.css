@@ -16,7 +16,7 @@ section{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 0px;
+		padding: 0 20px;
 		background-color: black
 	}
 	.logo {
@@ -43,7 +43,7 @@ section{
 		text-decoration: none;
 		font-size: 20px;
 		color: lightgray;
-		padding: 20px 16px;
+		padding: 30px 16px;
 		transition: all ease-in-out 100ms;
 	}
 	.nav-links a:hover {
