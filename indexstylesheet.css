@@ -14,8 +14,9 @@ body{
     }
 }
 section{
+	z-index: 1000;
 	nav{
-		position: sticky;
+		position: fixed;
 		top: 0;
 		display: flex;
 		justify-content: space-between;
