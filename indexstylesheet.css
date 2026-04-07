@@ -15,11 +15,11 @@ body{
 }
 section{
 	z-index: 1000;
+	height: 25px;
 	nav{
 		width: 100%;
 		position: fixed;
 		display: flex;
-		height: 25px;
 		justify-content: space-between;
 		align-items: center;
 		background-color: black
