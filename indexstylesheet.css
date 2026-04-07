@@ -15,10 +15,11 @@ body{
 }
 section{
 	z-index: 1000;
+	height: 25px;
 	nav{
 		width: 100%;
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		position: fixed;
 		display: flex;
 		justify-content: space-between;
