@@ -15,7 +15,7 @@ body{
 }
 section{
 	z-index: 1000;
-	height: 30px;
+	height: 10%;
 	nav{
 		width: 100%;
 		position: fixed;
