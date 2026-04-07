@@ -15,10 +15,9 @@ body{
 }
 section{
 	z-index: 1000;
+	height: 30px;
 	nav{
 		width: 100%;
-		padding-top: 15px;
-		padding-bottom: 15px; 
 		position: fixed;
 		display: flex;
 		justify-content: space-between;
@@ -40,8 +39,6 @@ section{
 		font-size: 20px;
 	}
 	.nav-links{
-		padding-top: 15px;
-		padding-bottom: 15px;
 		margin-right: 25px;
 		display: flex;
 		align-items: center;
@@ -55,7 +52,7 @@ section{
 		padding: 30px 16px;
 		transition: all ease-in-out 100ms;
 	}
-	.nav-links a:hover {
+	.nav-links a: hover {
 		text-decoration: underline;
 		colour: lightgray;
 	}
