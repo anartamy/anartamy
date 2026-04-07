@@ -21,7 +21,6 @@ section{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 20 20px;
 		background-color: black
 	}
 	.logo {
@@ -39,6 +38,7 @@ section{
 		font-size: 20px;
 	}
 	.nav-links{
+		margin-right: 25px;
 		display: flex;
 		align-items: center;
 		list-style: none;
