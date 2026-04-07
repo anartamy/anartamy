@@ -24,6 +24,7 @@ section{
 		background-color: black
 	}
 	.logo {
+		margin-left: 25px;
 		display: flex;
 		align-items: center;
 	}
@@ -31,7 +32,6 @@ section{
 		width: 40px;
 	}
 	.logo h1{
-		margin-left: 25px;
 		color: lightgray;
 		text-decoration: none;
 		font-weight: bold;
