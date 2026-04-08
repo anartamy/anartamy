@@ -32,6 +32,7 @@ section{
 		width: 40px;
 	}
 	.logo h1{
+		margin-left: 5px;
 		color: lightgray;
 		text-decoration: none;
 		font-weight: bold;
