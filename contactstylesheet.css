@@ -13,24 +13,24 @@ body{
     font-family: 'special elite', serif;
 }
 section{
+	z-index: 1000;
     nav{
-		position: sticky;
-		top: 0;
+		width: 100%;
+		position: fixed;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 20px;
 		background-color: black
 	}
 	.logo {
 		display: flex;
+		margin-left: 25px;
 		align-items: center;
 	}
 	.logo img{
 		width: 40px;
 	}
 	.logo h1{
-		margin-left: 25px;
 		color: lightgray;
 		text-decoration: none;
 		font-weight: bold;
@@ -38,6 +38,7 @@ section{
 	}
 	.nav-links{
 		display: flex;
+		margin-right: 25px;
 		align-items: center;
 		list-style: none;
 	}
@@ -46,10 +47,10 @@ section{
 		text-decoration: none;
 		font-size: 20px;
 		color: lightgray;
-		padding: 30px 16px;
+		padding: 10px 16px;
 		transition: all ease-in-out 100ms;
 	}
-	.nav-links a:hover {
+	.nav-links a: hover {
 		text-decoration: underline;
 		colour: lightgray;
 	}
