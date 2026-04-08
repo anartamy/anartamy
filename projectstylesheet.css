@@ -56,6 +56,7 @@ section{
 		display: none;
 		cursor: pointer;
 		width: 34px;
+		margin-right: 25px;
 	}
 	.hamburger .bar {
 		flex-basis: 100%;
@@ -71,6 +72,7 @@ section{
 	.hamburger{
 		display: flex;
 		flex-wrap: wrap;
+		margin-right: 25px;
 	}
 	.logo{
 		height: 80px;
