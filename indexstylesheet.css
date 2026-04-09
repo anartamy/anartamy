@@ -9,8 +9,7 @@ body{
 	flex-direction: column;
 	font-family: 'special elite', serif;
 		@media (max-width: 768px) {
-			body{
-				font-size: 18px;}
+				font-size: 18px;
     }
 }
 section{
